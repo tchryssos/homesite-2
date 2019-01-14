@@ -1,27 +1,12 @@
 import React from 'react'
 import { Route } from 'react-router-dom'
-
-const pageRender = path => (
-	<div>
-		{path}
-	</div>
-)
+import { Page } from 'components'
 
 const RouteWrapper = () => (
 	<>
-		<Route
-			path="/"
-			exact
-			render={() => pageRender('home')}
-		/>
-		<Route
-			path="/code"
-			render={() => pageRender('code')}
-		/>
-		<Route
-			path="/audio"
-			render={() => pageRender('audio')}
-		/>
+		<Route path="/" exact component={Page} />
+		<Route path="/code" component={Page} />
+		<Route path="/audio" component={Page} />
 	</>
 )
 
