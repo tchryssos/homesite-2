@@ -7,11 +7,10 @@ import { Sprite } from 'components'
 export default class Page extends PureComponent {
 	render() {
 		return (
-			<div>
-				{this.props.location.pathname}
+			<>
 				<Sprite type={TROY} />
 				<Sprite type={SPRITE_ROUTE_MAP[this.props.location.pathname]} />
-			</div>
+			</>
 		)
 	}
 }
