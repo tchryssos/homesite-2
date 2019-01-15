@@ -7,6 +7,5 @@ body, html, #app {
 }
 
 body, #app {
-    background-color: #396052;
-    background-image: linear-gradient(to bottom right, #593345, #593338)
+    background-color: #4f2d35;
 }
