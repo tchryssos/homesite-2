@@ -16,19 +16,19 @@
     background-size: contain;
 }
 
-.objSprite {
+@mixin sprite($leftMod, $topMarg) {
     position: absolute;
     margin: 0 auto;
-    left: 0 + 15%;
+    left: 0 + $leftMod;
     right: 0;
-    margin-top: -8px;
+    margin-top: $topMarg;
+}
+
+.objSprite {
+    @include sprite(15%, -8px);
 }
 
 .troySprite {
-    position: absolute;
-    margin: 0 auto;
-    left: 0 - 15%;
-    right: 0;
+    @include sprite(-15%, 8px);
     z-index: 2;
-    margin-top: 8px;
 }
