@@ -5,13 +5,11 @@ import { BrowserRouter } from 'react-router-dom'
 import { NavBar, RouteWrapper } from 'components'
 
 render(
-	<div>
-		<BrowserRouter>
-			<>
-				<NavBar />
-				<RouteWrapper />
-			</>
-		</BrowserRouter>
-	</div>,
+	<BrowserRouter>
+		<>
+			<NavBar />
+			<RouteWrapper />
+		</>
+	</BrowserRouter>,
 	document.getElementById('app'),
 )
