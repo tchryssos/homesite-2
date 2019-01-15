@@ -1,12 +1,12 @@
 // PixelContent
 .pixelArtContainer {
-    margin-top: 176px;
+    margin-top: 184px;
     width: 100%;
 }
 
 .spriteContainer {
     width: 100%;
-    margin-bottom: -40px;
+    margin-bottom: -48px;
 }
 
 .sidewalk {
@@ -17,16 +17,18 @@
 }
 
 .objSprite {
-    margin: 0 auto;
-    left: 0 + 10%;
-    right: 0;
     position: absolute;
+    margin: 0 auto;
+    left: 0 + 15%;
+    right: 0;
+    margin-top: -8px;
 }
 
 .troySprite {
-    margin: 0 auto;
-    left: 0 - 10%;
-    right: 0;
     position: absolute;
+    margin: 0 auto;
+    left: 0 - 15%;
+    right: 0;
     z-index: 2;
+    margin-top: 8px;
 }
