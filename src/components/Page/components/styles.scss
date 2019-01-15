@@ -1,6 +1,12 @@
 // PixelContent
 .pixelArtContainer {
+    margin-top: 176px;
     width: 100%;
+}
+
+.spriteContainer {
+    width: 100%;
+    margin-bottom: -40px;
 }
 
 .sidewalk {
@@ -8,4 +14,19 @@
     height: 150px;
     background: url('~static/street_purp.png');
     background-size: contain;
+}
+
+.objSprite {
+    margin: 0 auto;
+    left: 0 + 10%;
+    right: 0;
+    position: absolute;
+}
+
+.troySprite {
+    margin: 0 auto;
+    left: 0 - 10%;
+    right: 0;
+    position: absolute;
+    z-index: 2;
 }

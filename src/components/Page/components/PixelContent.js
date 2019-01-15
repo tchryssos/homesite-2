@@ -10,8 +10,14 @@ export default class PixelContent extends PureComponent {
 		return (
 			<div className="pixelArtContainer">
 				<div className="spriteContainer">
-					<Sprite type={TROY} />
-					<Sprite type={SPRITE_ROUTE_MAP[this.props.location.pathname]} />
+					<Sprite
+						type={TROY}
+						className="troySprite"
+					/>
+					<Sprite
+						type={SPRITE_ROUTE_MAP[this.props.location.pathname]}
+						className="objSprite"
+					/>
 				</div>
 				<div className="sidewalk" />
 			</div>
