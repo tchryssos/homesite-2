@@ -27,5 +27,5 @@ Sprite.propTypes = {
 }
 
 Sprite.defaultProps = {
-	size: 'medium',
+	size: 'small',
 }

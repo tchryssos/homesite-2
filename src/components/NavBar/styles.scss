@@ -1,17 +1,30 @@
 @import '~styles/global';
 
-a {
-    text-decoration: none;
-    margin: 0px 16px;
+// Wrappers
+%wrapper {
+    margin: 16px;
+}
+
+.navWrapper {
+    @extend %wrapper;
+    text-shadow: 2px -2px #000;
+}
+
+.nameWrapper {
     @extend %VT-large;
-    display: block;
+    @extend %wrapper;
+    font-style: italic;
+    text-shadow: 2px -4px #000;
+}
+
+
+// Links
+a {
+    @extend %VT-medium;
+    text-decoration: none;
+    margin-right: 16px;
 }
 
 .navActive {
     text-decoration: underline !important;
-}
-
-.navWrapper {
-    display: inline-flex;
-    flex-direction: column;
 }

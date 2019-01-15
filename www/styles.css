@@ -2,9 +2,11 @@ body, html, #app {
     height: 100%;
     width: 100%;
     overflow: hidden;
+    margin: 0;
+    padding: 0;
 }
 
 body, #app {
     background-color: #396052;
-    background-image: linear-gradient(to bottom right, #396052, #23302b)
+    background-image: linear-gradient(to bottom right, #593345, #593338)
 }

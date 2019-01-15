@@ -4,15 +4,21 @@
 // FONTS //
 //////////
 %small-font {
-    font-size: 16px;
-}
-
-%medium-font {
     font-size: 24px;
 }
 
+%medium-font {
+    font-size: 48px;
+}
+
 %large-font {
-    font-size: 36px;
+    font-size: 72px;
+}
+
+%VT-small {
+    color: white;
+    @extend %VT323;
+    @extend %small-font;
 }
 
 %VT-medium {
