@@ -7,12 +7,14 @@ import './styles.scss'
 export default class Sprite extends PureComponent {
 	render() {
 		return (
-			<img
-				// eslint-disable-next-line global-require, import/no-dynamic-require
-				src={require(`../../../static/${this.props.type}.gif`)}
-				alt={`A sprite of ${this.props.type}`}
-				className={`sprite ${this.props.size}`}
-			/>
+			<div className={this.props.size}>
+				<img
+					// eslint-disable-next-line global-require, import/no-dynamic-require
+					src={require(`../../../static/${this.props.type}.gif`)}
+					alt={`A sprite of ${this.props.type}`}
+					className="sprite"
+				/>
+			</div>
 		)
 	}
 }

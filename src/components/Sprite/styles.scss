@@ -1,15 +1,20 @@
-.sprite {
-    margin: auto;
+@mixin spriteContainer($max-dimension) {
+    max-width: $max-dimension;
 }
 
 .small {
-    width: 128px;
+    @include spriteContainer(128px)
 }
 
 .medium {
-    width: 256px;
+    @include spriteContainer(256px)
 }
 
 .large {
-    width: 512px;
+    @include spriteContainer(512px)
+}
+
+.sprite {
+    width: 100%;
+    margin: auto;
 }
