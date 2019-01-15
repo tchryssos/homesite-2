@@ -7,7 +7,7 @@ import './styles.scss'
 export default class Sprite extends PureComponent {
 	render() {
 		return (
-			<div className={this.props.size}>
+			<div className={`${this.props.size} spriteContainer`}>
 				<img
 					// eslint-disable-next-line global-require, import/no-dynamic-require
 					src={require(`../../../static/${this.props.type}.gif`)}

@@ -14,7 +14,11 @@
     @include spriteContainer(512px)
 }
 
+.spriteContainer {
+    display: flex;
+    align-items: flex-end;
+}
+
 .sprite {
     width: 100%;
-    margin: auto;
 }

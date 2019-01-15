@@ -16,11 +16,13 @@
 }
 
 %VT-medium {
+    color: white;
     @extend %VT323;
     @extend %medium-font;
 }
 
 %VT-large {
+    color: white;
     @extend %VT323;
     @extend %large-font;
 }
