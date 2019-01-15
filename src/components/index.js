@@ -1,3 +1,4 @@
 export NavBar from './NavBar'
-export RouteWrapper from './RouteWrapper'
 export Page from './Page'
+export RouteWrapper from './RouteWrapper'
+export Sprite from './Sprite'
