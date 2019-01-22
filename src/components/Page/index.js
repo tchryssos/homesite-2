@@ -1,1 +1,2 @@
-export default from './Page'
+export Page from './Page'
+export FourOhFour from './FourOhFour'

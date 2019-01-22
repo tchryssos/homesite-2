@@ -1,13 +1,16 @@
 import React from 'react'
-import { Route } from 'react-router-dom'
-import { Page } from 'components'
+import { Route, Switch } from 'react-router-dom'
+import { Page, FourOhFour } from 'components'
 import './styles.scss'
 
 const RouteWrapper = () => (
 	<div className="routeWrapper">
-		<Route path="/" exact component={Page} />
-		<Route path="/code" component={Page} />
-		<Route path="/audio" component={Page} />
+		<Switch>
+			<Route path="/" exact component={Page} />
+			<Route path="/code" component={Page} />
+			<Route path="/audio" component={Page} />
+			<Route component={FourOhFour} />
+		</Switch>
 	</div>
 )
 

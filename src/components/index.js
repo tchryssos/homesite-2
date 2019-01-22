@@ -1,3 +1,3 @@
 export NavBar from './NavBar'
-export Page from './Page'
+export { Page, FourOhFour } from './Page'
 export Sprite from './Sprite'

@@ -1,0 +1,12 @@
+@import '~styles/global';
+
+// FourOhFour
+.fourOhFourContainer {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    margin-top: -80px;
+}
+.fourOhFour {
+    @extend %VT-mega;
+}

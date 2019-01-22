@@ -15,6 +15,10 @@
     font-size: 72px;
 }
 
+%mega-font {
+    font-size: 160px;
+}
+
 %VT-small {
     color: white;
     @extend %VT323;
@@ -31,4 +35,10 @@
     color: white;
     @extend %VT323;
     @extend %large-font;
+}
+
+%VT-mega {
+    color: white;
+    @extend %VT323;
+    @extend %mega-font;
 }
